@@ -25,6 +25,26 @@
     background-color: #333; /* Darker black on hover */
 }
 
+header {
+    color: white;
+}
+  
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+nav ul li {
+    display: inline;
+    margin-right: 5px;
+}
+  
+footer {
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
 .image-container {
   cursor: pointer;
   /* Set dimensions for the expanded view */
