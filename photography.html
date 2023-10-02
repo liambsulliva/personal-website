@@ -12,7 +12,7 @@
     <nav>
       <label class="logo">Liam Sullivan</label>
       <ul>
-          <li><a href="/" class="button" target="_self" rel="nofollow">About</a></li>
+          <li><a href="index.html" class="button" target="_self" rel="nofollow">About</a></li>
           <li><a href="resume.html" class="button" target="_self" rel="nofollow">Resume</a></li>
           <li><a href="photography.html" class="button" target="_self" rel="nofollow">Photography</a></li>
           <li><a href="projects.html" class="button" target="_self" rel="nofollow">Projects</a></li>
@@ -24,17 +24,7 @@
       <h2 class="title">My Portfolio</h2>
     </div>
   <div class="gallery">
-    <div class="image-container">
-      <img src="Images/portrait1.jpg" alt="" class="zoomable-image">
-      <img src="Images/portrait2.jpg" alt="" class="zoomable-image">
-      <img src="Images/portrait3.jpg" alt="" class="zoomable-image">
-      <img src="Images/portrait4.jpg" alt="" class="zoomable-image">
-      <img src="Images/portrait5.jpg" alt="" class="zoomable-image">
-      <img src="Images/portrait6.jpg" alt="" class="zoomable-image">
-      <img src="Images/portrait7.jpg" alt="" class="zoomable-image">
-      <img src="Images/portrait8.jpg" alt="" class="zoomable-image">
-      <img src="Images/portrait9.jpg" alt="" class="zoomable-image"><br>
-    </div>
+    <div class="image-container"></div>
   </div>
   <footer>
     <p>© <script>document.write(new Date().getFullYear())</script> Liam Sullivan</p>
@@ -42,8 +32,20 @@
     <a href="https://linkedin.com/in/liambsulliva" target="_blank"><img src="Images/icon2.svg" alt="Linkedin" style="width: 24px; height: 24px;"/></a>
   </footer>
   <script>
-    var icon = document.getElementById('icon');
-    icon.onclick = function(){
+      const imageContainer = document.querySelector('.image-container');
+      const numberOfImages = 55; // You can change this to the total number of images you have
+
+      for (let i = 1; i <= numberOfImages; i++) { // Start from 2 to 55
+        const imageTag = document.createElement('img');
+        imageTag.src = `Images/portrait${i}.jpg`;
+        imageTag.alt = '';
+        imageTag.classList.add('zoomable-image');
+      
+        imageContainer.appendChild(imageTag);
+      }
+
+      var icon = document.getElementById('icon');
+      icon.onclick = function(){
       document.body.classList.toggle('dark-mode');
       if(document.body.classList.contains('dark-mode')){
         icon.src = 'Images/sun.svg';

@@ -12,8 +12,8 @@ html, body{
 }
 
 .gallery img {
-    width: 35%; /* Adjust to your desired width */
-    height: 35%; /* Adjust to your desired height */
+    width: 25%; /* Adjust to your desired width */
+    height: 25%; /* Adjust to your desired height */
 }
 
 .title-container {
