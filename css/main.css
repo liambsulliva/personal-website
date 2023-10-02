@@ -91,6 +91,48 @@ li{
     font-size: 2rem;
     font-weight: bold;
   }
+
+  .container2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .projects {
+    flex-basis: 50%;
+  }
+  
+  .descriptions {
+    flex-basis: 50%;
+  }
+  
+  .projects h2 {
+    text-align: center;
+  }
+  
+  .projects ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .projects li {
+    margin-bottom: 1rem;
+  }
+  
+  .descriptions h2 {
+    text-align: center;
+  }
+  
+  .descriptions ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .descriptions li {
+    margin-bottom: 1rem;
+  }
+  
   
 /* Hover effect for the button link */
 .button:hover {
