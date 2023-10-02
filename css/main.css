@@ -12,8 +12,8 @@ html, body{
 }
 
 .gallery img {
-    width: 25%; /* Adjust to your desired width */
-    height: 25%; /* Adjust to your desired height */
+    max-width: 25%; /* Adjust to your desired width */
+    height: auto; /* Adjust to your desired height */
 }
 
 .title-container {
@@ -65,17 +65,6 @@ p {
 li{
     list-style-type: disc;
     margin: 20px;
-}
-
-.button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: none;
-    color: #fff; /* White text color */
-    text-decoration: none;
-    border: #fff;
-    border-radius: 4px;
-    transition: background-color 0.3s ease;
 }
 
 #icon {
@@ -194,41 +183,72 @@ button[type="submit"]:hover {
     transition: .3s;
 }
 
+/* Default styles for the navbar */
 nav {
-    background: #0082e6;
-    height: 80px;
-    width: 100%;
+  background: #0082e6;
+  height: 80px;
+  width: 100%;
 }
-  
+
 nav ul {
-    float: right;
-    margin-right: 20px;
-    list-style-type: none;
-    padding: 0;
+  float: right;
+  margin-right: 20px;
+  list-style-type: none;
+  padding: 0;
 }
-  
+
 nav ul li {
-    display: inline-block;
-    margin-right: 5px;
+  display: inline-block;
+  margin-right: 5px;
 }
 
-label{
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-weight: bold;
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: none;
+  color: #fff;
+  text-decoration: none;
+  border: #fff;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
 }
 
-textarea {
-    resize: vertical;
+label {
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-weight: bold;
 }
 
 label.logo {
-    color: white;
-    font-size: 35px;
-    line-height: 80px;
-    padding: 0 100px;
-    font-weight: bold;
+  color: white;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 50px;
+  font-weight: bold;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+  nav ul {
+      float: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  label.logo {
+      display: none;
+  }
+}
+
+
+textarea {
+    resize: vertical;
 }
   
 footer {
