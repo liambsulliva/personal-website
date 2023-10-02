@@ -69,6 +69,29 @@ li{
     cursor: pointer;
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .photo {
+    display: block;
+    width: 25%;
+    height: auto;
+  }
+
+  .text {
+    flex-basis: 50%;
+    text-align: left;
+    padding-left: 20px;
+  }
+  
+  .title {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
 /* Hover effect for the button link */
 .button:hover {
     background-color: #000;
