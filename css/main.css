@@ -252,6 +252,7 @@ footer {
   /* Set dimensions for the expanded view */
   max-width: 100%;
   max-height: 100%;
+  padding: 50px;
 }
 
 .zoomed-image {
