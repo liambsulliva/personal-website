@@ -3,6 +3,7 @@ const darkModeToggle = document.getElementById('dark-mode-toggle');
 const darkModeImage = document.getElementById('dark-mode-image');
 const darkModeIcon1 = document.getElementById('dark-mode-icon1');
 const darkModeIcon2 = document.getElementById('dark-mode-icon2');
+const darkModeIcon3 = document.getElementById('dark-mode-icon3');
 
 // check if darkmode is enabled
 // flip states
@@ -22,6 +23,7 @@ if(darkMode === 'enabled'){
     darkModeImage.src = 'Images/sun.svg';
     darkModeIcon1.src = 'Images/icon1-dark.svg';
     darkModeIcon2.src = 'Images/icon2-dark.svg';
+    darkModeIcon3.src = 'Images/icon3-dark.svg';
 }
 
 darkModeToggle.addEventListener('click', () => {
@@ -32,11 +34,13 @@ darkModeToggle.addEventListener('click', () => {
         darkModeImage.src = 'Images/sun.svg';
         darkModeIcon1.src = 'Images/icon1-dark.svg';
         darkModeIcon2.src = 'Images/icon2-dark.svg';
+        darkModeIcon3.src = 'Images/icon3-dark.svg';
     } else {
         disableDarkMode();
         darkMode = 'disabled';
         darkModeImage.src = 'Images/moon.svg';
         darkModeIcon1.src = 'Images/icon1.svg';
         darkModeIcon2.src = 'Images/icon2.svg';
+        darkModeIcon3.src = 'Images/icon3.svg';
     }
 })
