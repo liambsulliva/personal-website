@@ -89,7 +89,7 @@ p {
 .centered-item img {
   transition: transform 0.3s;
   height: auto;
-  width: 450px;
+  max-width: 100%;
 }
 
 .centered-item img:hover {
