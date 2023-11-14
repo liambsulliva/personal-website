@@ -34,11 +34,6 @@ body, footer{
     color: var(--text);
 }
 
-.gallery img {
-    max-width: 25%;
-    height: auto;
-}
-
 .title-container {
     text-align: center;
     padding: 20px;
@@ -123,66 +118,66 @@ li{
     align-items: center;
   }
   
-  .photo {
-    max-width: 25%;
-    margin-left: 25px;
-    margin-top: 25px;
-    margin-right: 20px;
-    height: auto;
-  }
+.photo {
+  max-width: 25%;
+  margin-left: 25px;
+  margin-top: 25px;
+  margin-right: 20px;
+  height: auto;
+}
 
-  .text {
-    flex-basis: 50%;
-    text-align: left;
-    padding-left: 20px;
-  }
-  
-  .title {
-    font-size: 2rem;
-    font-weight: bold;
-  }
+.text {
+  flex-basis: 50%;
+  text-align: left;
+  padding-left: 20px;
+}
 
-  .container2 {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .projects {
-    flex-basis: 50%;
-  }
-  
-  .descriptions {
-    flex-basis: 50%;
-  }
-  
-  .projects h2 {
-    text-align: center;
-  }
-  
-  .projects ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .projects li {
-    margin-bottom: 1rem;
-    text-align: center;
-  }
-  
-  .descriptions h2 {
-    text-align: center;
-  }
-  
-  .descriptions ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  .descriptions li {
-    margin-bottom: 1rem;
-  }
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects {
+  flex-basis: 50%;
+}
+
+.descriptions {
+  flex-basis: 50%;
+}
+
+.projects h2 {
+  text-align: center;
+}
+
+.projects ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.projects li {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.descriptions h2 {
+  text-align: center;
+}
+
+.descriptions ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.descriptions li {
+  margin-bottom: 1rem;
+}
   
   
 /* Hover effect for the button link */
@@ -292,8 +287,9 @@ label.logo {
     margin-bottom: 0px;
   }
 
-  .button{
-    padding: 0px;
+  .button {
+    padding-top: 0;
+    padding-bottom: 0;
   }
 
   .photo {

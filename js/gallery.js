@@ -1,6 +1,6 @@
 jQuery(document).ready(function () {
 
-jQuery("#gallery").nanogallery2( {
+jQuery("#photo-gallery").nanogallery2( {
     // ### gallery settings ### 
     thumbnailL1Height:  300,
     thumbnailL1Width:   'auto',
