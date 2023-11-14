@@ -6,6 +6,8 @@ jQuery("#gallery").nanogallery2( {
     thumbnailL1Width:   'auto',
     thumbnailHeight:  600,
     thumbnailWidth:   'auto',
+    thumbnailGutterHeight: 5,
+    thumbnailGutterWidth: 5,
     thumbnailBorderHorizontal: 0,
     thumbnailBorderVertical: 0,
     thumbnailLabel:     { display: false },
