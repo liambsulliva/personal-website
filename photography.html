@@ -5,7 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Liam Sullivan</title>
   <link rel="stylesheet" type="text/css" href="css/main.css">
-  <script src="js/zoom.js"></script>
 </head>
 <body>
   <header>
@@ -24,28 +23,22 @@
     <div class="title-container">
       <h2 class="title">My Portfolio</h2>
     </div>
-  <div class="gallery">
-    <div class="image-container"></div>
-  </div>
+  <div id="gallery"></div>
   <footer>
     <p>© <script>document.write(new Date().getFullYear())</script> Liam Sullivan</p>
     <a href="https://instagram.com/liamsullivanphoto" target="_blank"><img src="Images/icon1.svg" id="dark-mode-icon1" alt="Instagram" style="width: 24px; height: 24px;"/></a>
     <a href="https://linkedin.com/in/liambsulliva" target="_blank"><img src="Images/icon2.svg" id="dark-mode-icon2" alt="Linkedin" style="width: 24px; height: 24px;"/></a>
     <a href="https://github.com/liambsulliva" target="_blank"><img src="Images/icon3.svg" id="dark-mode-icon3" alt="GitHub" style="width: 24px; height: 24px;"/></a>
   </footer>
-  <script>
-      const imageContainer = document.querySelector('.image-container');
-      const numberOfImages = 80; // You can change this to the total number of images you have
+  <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js" type="text/javascript"></script>
+          
+  <!-- nanogallery2 -->
+  <link  href="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/css/nanogallery2.min.css" rel="stylesheet" type="text/css">
+  <script  type="text/javascript" src="https://cdn.jsdelivr.net/npm/nanogallery2@3/dist/jquery.nanogallery2.min.js"></script>
 
-      for (let i = 1; i <= numberOfImages; i++) { // Start from 1 to numberOfImages
-        const imageTag = document.createElement('img');
-        imageTag.src = `Images/portrait${i}.jpg`;
-        imageTag.alt = '';
-        imageTag.classList.add('zoomable-image');
-      
-        imageContainer.appendChild(imageTag);
-      }
-  </script>
+  <!-- locals -->
+  <script src="js/gallery.js"></script>
   <script src="js/darkmode.js"></script>
 </body>
 </html>
