@@ -28,7 +28,7 @@ jQuery("#photo-gallery").nanogallery2( {
         { src: 'portrait9.jpg', srct: 'thumbnails/portrait9.jpg', ID: 12, albumID: 1 },
         
         // album 2
-        { srct: 'thumbnails/portrait11.jpg', title: 'Elle Levi',  ID: 2,	kind:'album' },
+        { srct: 'thumbnails/portrait12.jpg', title: 'Elle Levi',  ID: 2,	kind:'album' },
         { src: 'portrait11.jpg', srct: 'thumbnails/portrait11.jpg', ID: 20, albumID: 2 },
         { src: 'portrait12.jpg', srct: 'thumbnails/portrait12.jpg', ID: 21, albumID: 2 },
         { src: 'portrait13.jpg', srct: 'thumbnails/portrait13.jpg', ID: 22, albumID: 2 },
@@ -36,7 +36,7 @@ jQuery("#photo-gallery").nanogallery2( {
         { src: 'portrait15.jpg', srct: 'thumbnails/portrait15.jpg', ID: 24, albumID: 2 },
 
         // album 3
-        { srct: 'thumbnails/portrait17.jpg', title: 'Samantha Kay',  ID: 3,	kind:'album' },
+        { srct: 'thumbnails/portrait19.jpg', title: 'Samantha Kay',  ID: 3,	kind:'album' },
         { src: 'portrait17.jpg', srct: 'thumbnails/portrait17.jpg', ID: 30, albumID: 3 },
         { src: 'portrait18.jpg', srct: 'thumbnails/portrait18.jpg', ID: 31, albumID: 3 },
         { src: 'portrait19.jpg', srct: 'thumbnails/portrait19.jpg', ID: 32, albumID: 3 },
@@ -63,7 +63,7 @@ jQuery("#photo-gallery").nanogallery2( {
         { src: 'portrait32.jpg', srct: 'thumbnails/portrait32.jpg', ID: 54, albumID: 5 },
 
         // album 6
-        { srct: 'thumbnails/portrait33.jpg', title: 'Ava Acosta - 1',  ID: 6,	kind:'album' },
+        { srct: 'thumbnails/portrait35.jpg', title: 'Ava Acosta - 1',  ID: 6,	kind:'album' },
         { src: 'portrait33.jpg', srct: 'thumbnails/portrait33.jpg', ID: 60, albumID: 6 },
         { src: 'portrait34.jpg', srct: 'thumbnails/portrait34.jpg', ID: 61, albumID: 6 },
         { src: 'portrait35.jpg', srct: 'thumbnails/portrait35.jpg', ID: 62, albumID: 6 },
@@ -73,17 +73,17 @@ jQuery("#photo-gallery").nanogallery2( {
         { src: 'portrait39.jpg', srct: 'thumbnails/portrait39.jpg', ID: 66, albumID: 6 },
 
         // album 7
-        { srct: 'thumbnails/portrait40.jpg', title: 'John Policarpio',  ID: 7,	kind:'album' },
+        { srct: 'thumbnails/portrait41.jpg', title: 'John Policarpio',  ID: 7,	kind:'album' },
         { src: 'portrait40.jpg', srct: 'thumbnails/portrait40.jpg', ID: 70, albumID: 7 },
         { src: 'portrait41.jpg', srct: 'thumbnails/portrait41.jpg', ID: 71, albumID: 7 },
         { src: 'portrait42.jpg', srct: 'thumbnails/portrait42.jpg', ID: 72, albumID: 7 },
 
         // album 8
-        { srct: 'thumbnails/portrait43.jpg', title: 'Yuliya Dadayeva',  ID: 8,	kind:'album' },
-        { src: 'portrait43.jpg', srct: 'thumbnails/portrait33.jpg', ID: 80, albumID: 8 },
-        { src: 'portrait44.jpg', srct: 'thumbnails/portrait34.jpg', ID: 81, albumID: 8 },
-        { src: 'portrait45.jpg', srct: 'thumbnails/portrait35.jpg', ID: 82, albumID: 8 },
-        { src: 'portrait46.jpg', srct: 'thumbnails/portrait36.jpg', ID: 83, albumID: 8 },
+        { srct: 'thumbnails/portrait44.jpg', title: 'Yuliya Dadayeva',  ID: 8,	kind:'album' },
+        { src: 'portrait43.jpg', srct: 'thumbnails/portrait43.jpg', ID: 80, albumID: 8 },
+        { src: 'portrait44.jpg', srct: 'thumbnails/portrait44.jpg', ID: 81, albumID: 8 },
+        { src: 'portrait45.jpg', srct: 'thumbnails/portrait45.jpg', ID: 82, albumID: 8 },
+        { src: 'portrait46.jpg', srct: 'thumbnails/portrait46.jpg', ID: 83, albumID: 8 },
 
         // cats
         { srct: 'thumbnails/portrait47.jpg', title: 'The Cats',  ID: 1040,	kind:'album' },
@@ -91,7 +91,7 @@ jQuery("#photo-gallery").nanogallery2( {
         { src: 'portrait48.jpg', srct: 'thumbnails/portrait48.jpg', ID: 141, albumID: 1040 },
 
         // album 9
-        { srct: 'thumbnails/portrait50.jpg', title: 'Funky Lamp - Band',  ID: 9,	kind:'album' },
+        { srct: 'thumbnails/portrait52.jpg', title: 'Funky Lamp - Band',  ID: 9,	kind:'album' },
         { src: 'portrait50.jpg', srct: 'thumbnails/portrait50.jpg', ID: 90, albumID: 9 },
         { src: 'portrait51.jpg', srct: 'thumbnails/portrait51.jpg', ID: 91, albumID: 9 },
         { src: 'portrait52.jpg', srct: 'thumbnails/portrait52.jpg', ID: 92, albumID: 9 },
@@ -105,7 +105,7 @@ jQuery("#photo-gallery").nanogallery2( {
         { src: 'portrait56.jpg', srct: 'thumbnails/portrait56.jpg', ID: 151, albumID: 1050 },
 
         // sophia
-        { srct: 'thumbnails/portrait57.jpg', title: 'Sophia',  ID: 1080,	kind:'album' },
+        { srct: 'thumbnails/portrait59.jpg', title: 'Sophia',  ID: 1080,	kind:'album' },
         { src: 'portrait57.jpg', srct: 'thumbnails/portrait57.jpg', ID: 180, albumID: 1080 },
         { src: 'portrait58.jpg', srct: 'thumbnails/portrait58.jpg', ID: 181, albumID: 1080 },
         { src: 'portrait59.jpg', srct: 'thumbnails/portrait59.jpg', ID: 182, albumID: 1080 },
