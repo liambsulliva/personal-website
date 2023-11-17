@@ -2,6 +2,7 @@ jQuery(document).ready(function () {
 
 jQuery("#photo-gallery").nanogallery2( {
     // ### gallery settings ### 
+    // TODO: Set gallery theme with dark mode toggle
     thumbnailL1Height:  300,
     thumbnailL1Width:   'auto',
     thumbnailHeight:  600,
