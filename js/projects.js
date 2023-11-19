@@ -24,7 +24,8 @@ const displayRepos = (repos) => {
     for (const repo of repos) {
 
         //* Skip over forks, this is intended behavior
-        if (repo.fork) {
+        // Displaying website on the website is redundant
+        if (repo.fork || repo.name === 'personal-website') {
             continue;
         }
 
