@@ -38,11 +38,11 @@ const displayRepos = (repos) => {
         // Check for Live Website, if not don't list
         if (repo.homepage && repo.homepage !== '') {
             listItem.innerHTML += `<br /> <br />
-            <a class="link-btn" href=${repo.html_url}>View Project</a> <br /> <br />
-            <a class="link-btn" href=${repo.homepage}>Live Preview</a> <br />`;
+            <a class="link-btn" href=${repo.html_url}>View Project target="_blank"</a> <br /> <br />
+            <a class="link-btn" href=${repo.homepage}>Live Preview target="_blank"</a> <br />`;
         } else {
             listItem.innerHTML += `<br /> <br />
-            <a class="link-btn" href=${repo.html_url}>View Project</a> <br />`;
+            <a class="link-btn" href=${repo.html_url}>View Project target="_blank"</a> <br />`;
         }
 
         // Finally attach to parent to display in DOM
