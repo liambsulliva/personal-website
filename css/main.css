@@ -1,3 +1,4 @@
+/*! This is spaghetti, refactor and add classes/divs liberally */
 * {
     padding: 0;
     margin: 0;
@@ -18,11 +19,10 @@
 }
 
 .dark-mode-button {
-  background-color: #0082e6; /*match header*/
+  cursor: pointer;
+  background-color: #0082e6; /* match header */
   border: none;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  transform: translateY(5px);
 }
 
 body, html {
@@ -144,26 +144,8 @@ li{
   justify-content: center;
 }
 
-.projects {
-  flex-basis: 50%;
-}
-
 .descriptions {
   flex-basis: 50%;
-}
-
-.projects h2 {
-  text-align: center;
-}
-
-.projects ul {
-  list-style-type: none;
-  padding: 0;
-}
-
-.projects li {
-  margin-bottom: 1rem;
-  text-align: center;
 }
 
 .descriptions h2 {
@@ -196,35 +178,6 @@ li{
     text-align: center; /* Center the form contents horizontally */
 }
 
-/* Style the email and message input fields */
-input[type="email"], input[type="message"]{
-    width: 50%;
-    padding: 20px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    background-color: #f7f7f7;
-    color: #333;
-}
-
-button[type="submit"] {
-    display: inline-block;
-    padding: 10px 20px;
-    margin-left: 30px;
-    background-color: #0082e6;
-    color: #fff;
-    border: none;
-    border-radius: 3px;
-    font-size: 18px;
-    cursor: pointer;
-}
-
-button[type="submit"]:hover {
-    background-color: #005cbf;
-    transition: .3s;
-}
-
 /* Default styles for the navbar */
 nav {
   background: #0082e6;
@@ -255,19 +208,54 @@ nav ul li {
   transition: background-color 0.3s ease;
 }
 
-label {
-  text-align: center;
+.contact-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
   padding: 10px;
   margin-bottom: 10px;
   font-weight: bold;
 }
 
-label.logo {
+/* Style the email and message input fields */
+input[type="email"], input[type="message"] {
+  width: 100%;
+  padding: 20px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #f7f7f7;
+  color: #333;
+}
+
+.logo {
+  cursor: pointer;
   color: white;
   font-size: 35px;
   line-height: 80px;
   padding: 50px;
   font-weight: bold;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #0082e6;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #005cbf;
+  transition: .3s;
 }
 
 /* Media query for responsive design */
@@ -308,18 +296,55 @@ label.logo {
   }
 }
 
-
 textarea {
     resize: vertical;
 }
   
 footer {
     text-align: center;
-    padding: 10px;
-    
+}
+
+footer p {
+  margin: 5px;
+}
+
+footer a {
+  padding-bottom: 20px;
 }
 
 #photo-gallery {
   margin-left: 50px;
   margin-right: 50px;
+}
+
+/* Project Content */
+
+.repo-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.repo {
+  text-align: center;
+  width: 80%;
+  border: 4px solid #3880df;
+  border-radius: 15px;
+  padding: 10px;
+  padding-bottom: 20px;
+  list-style-type: none;
+}
+
+.repo a {
+  color: #005cbf;
+}
+
+.repo a:visited {
+  color: #005cbf;
+}
+
+.repo:hover {
+  box-shadow:
+        0 3px 6px #3880df,
+        0 3px 6px #3880df;
 }
