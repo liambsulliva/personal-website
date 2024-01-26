@@ -11,7 +11,7 @@ jQuery("#photo-gallery").nanogallery2( {
     thumbnailBorderHorizontal: 0,
     thumbnailBorderVertical: 0,
     thumbnailLabel:     { display: false },
-    itemsBaseURL:     'https://sites.pitt.edu/~lbs57/portfolio/',
+    itemsBaseURL:     'https://liambsullivan.com/portfolio/',
     
     // ### generate gallery content ### 
     items: [
