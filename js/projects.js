@@ -29,6 +29,11 @@ const displayRepos = (repos) => {
             continue;
         }
 
+        // If no description, toss it
+        if (repo.description === null) {
+            continue;
+        }
+
         // Prepare new li
         let listItem = document.createElement('li');
         listItem.classList.add('repo');
