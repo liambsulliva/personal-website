@@ -25,12 +25,7 @@ const displayRepos = (repos) => {
 
         //* Skip over forks, this is intended behavior
         // Displaying website on the website is redundant
-        if (repo.fork || repo.name === 'personal-website') {
-            continue;
-        }
-
-        // If no description, toss it
-        if (repo.description === null) {
+        if (repo.fork || repo.name === 'personal-website' || repo.name === 'liambsulliva') {
             continue;
         }
 
