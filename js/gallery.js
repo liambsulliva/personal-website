@@ -1,10 +1,8 @@
-var mykey = config.MY_KEY;
-var secretkey = config.SECRET_KEY;
 jQuery("#photo-gallery").nanogallery2({
     kind:             'flickr',
     userID:           '148052898@N03',
-    flickrAPIKey:     mykey,
-    secretkey:        secretkey,
+    flickrAPIKey:     MY_KEY,
+    secretkey:        SECRET_KEY,
     photoset: "none",
     thumbnailL1Height:  300,
     thumbnailL1Width:   'auto',
