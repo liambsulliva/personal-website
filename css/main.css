@@ -45,6 +45,7 @@ html, body{
 
 h3 {
     font-size: 24px;
+    font-weight: 500;
     color: var(--text);
     margin: 10px;
 }
