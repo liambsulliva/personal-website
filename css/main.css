@@ -291,6 +291,10 @@ button[type="submit"]:active {
   label.logo {
     display: none;
   }
+
+  .photo {
+    min-width: 80%;
+  }
 }
 
 @media (max-width: 836px) {
@@ -302,9 +306,9 @@ button[type="submit"]:active {
 
   @media (max-width: 716px) {
     nav ul li {
-      padding: 0.25em 0.5em;
-      font-size: 0.5em;
-      margin: 5px;
+      padding: 0.2em 0.4em;
+      font-size: 0.1em;
+      margin: 0px;
     }
 }
 
