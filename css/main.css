@@ -290,6 +290,7 @@ button[type="submit"] {
     font-size: 0.75em;
     margin: 10px;
   }
+}
 
   @media (max-width: 716px) {
     nav ul li {
