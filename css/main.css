@@ -15,11 +15,8 @@
   --header-text: #fff;
 }
 
-body, html {
-  height: 100%;
-}
-
-body, footer{
+body{
+    height: 100%;
     background-color: var(--background);
     color: var(--text);
 }
@@ -105,11 +102,13 @@ li{
 .container {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
   }
   
 .photo {
-  max-width: 25%;
+  max-width: 27%;
+  min-width: 400px;
   margin-left: 25px;
   margin-top: 25px;
   margin-right: 20px;
@@ -261,12 +260,6 @@ button[type="submit"] {
     padding: 0.5em 1em;
     font-size: 1em;
     list-style-type: none;
-  }
-
-  .photo {
-    min-width: 60%;
-    margin-left: 0;
-    margin-bottom: 10px;
   }
 
   .container {
