@@ -218,11 +218,12 @@ form {
   display: flex;
   flex-direction: row;
   align-items: center;
+  font-weight: 500;
 }
 
 /* Style the email and message input fields */
 input[type="email"], input[type="message"] {
-  width: 100%;
+  width: 350px;
   margin: 5px;
   margin-left: 10px;
   padding: 10px;
@@ -231,6 +232,10 @@ input[type="email"], input[type="message"] {
   font-size: 16px;
   background-color: #f7f7f7;
   color: #333;
+}
+
+input[type="email"] {
+  width: 375px;
 }
 
 .logo {
