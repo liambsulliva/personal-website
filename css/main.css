@@ -152,14 +152,6 @@ p {
 .descriptions li {
   margin-bottom: 1rem;
 }
-  
-  
-/* Hover effect for the button link */
-.button:hover {
-    background-color: var(--header-text);
-    color: var(--header);
-    transition: .3s;
-}
 
 .form-container {
     max-width: 400px;
@@ -194,11 +186,22 @@ nav ul li {
   display: inline-block;
   padding: 10px 20px;
   background-color: none;
-  color: var(--header-text); /* Hardcoded Colors for Header */
+  color: var(--header-text);
   text-decoration: none;
   border: var(--header-text);
   border-radius: 4px;
-  transition: background-color 0.3s ease;
+  transition: background-color 0.25s ease;
+  transition: scale 0.1s ease;
+}
+
+.button:hover {
+  background-color: var(--header-text);
+  color: var(--header);
+  transition: .3s;
+}
+
+.button:active {
+  transform: scale(0.96);
 }
 
 .contact-container {
@@ -257,6 +260,11 @@ button[type="submit"] {
   border-radius: 5px;
   font-size: 1em;
   cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+button[type="submit"]:active {
+  transform: scale(0.96);
 }
 
 @media screen and (max-width: 1380px) {
