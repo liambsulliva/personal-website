@@ -15,7 +15,7 @@
   --header-text: #fff;
 }
 
-body{
+html, body{
     height: 100%;
     background-color: var(--background);
     color: var(--text);
