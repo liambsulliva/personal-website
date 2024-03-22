@@ -266,7 +266,7 @@ button[type="submit"] {
 }
 
 /* Media query for responsive design */
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1075px) {
   nav {
     display: flex;
     flex-wrap: nowrap;
